@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" />
+<style>
+
+    form{
+        width: max-content;
+        background-color: lightgray;
+        margin-top: 40px;
+        margin-left: 30%; 
+    }
+    .item {
+      position: relative;
+      margin: 10px 0;
+      } 
+      button {
+    width: 80px;
+    margin-left: 100px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    }
+
+</style>
+<title>Formulaire</title>
+</head>
+
+<body>
+ <form action="#">
+    <h1>Formulaire</h1>
+    <ol>
+        <li>
+            <div class="item">
+                <label> Nom  utilisateur</label>
+                <input type="text" name="nom" required/>
+            </div>
+        </li>
+        <li> <label>Age : </label>
+                <div>
+                  <div>
+                    <input type="radio" value="none" name="type"/>
+                    <label  class="radio"><span>Enfant(0-11)</span></label>
+                  </div>
+                  <div>
+                    <input  type="radio" value="none"  name="type"/>
+                    <label  class="radio"><span>Adolescent(12-17)</span></label>
+                  </div>
+                  <div>
+                    <input  type="radio" value="none" name="type"/>
+                    <label  class="radio"><span>Adulte(18+)</span></label>
+                  </div>
+                </div>        
+
+        </li>
+        <li>
+              <div class="item">
+                <label >Email Address</label>
+                <input type="text"   name="Email" required/>
+              </div>
+
+        </li>
+        <li>
+            <div class="item">
+                <label >Password </label>
+                <input type="password"   name="password" required/>
+              </div>
+              
+
+        </li> 
+    </ol>
+     <div class="btn-block">
+        <button type="button" href="/">Envoyer </button> 
+      </div>
+      <div><a href="tableau.html" ><strong>Tableau</strong></div>
+ </form>
+</body>
+</html>

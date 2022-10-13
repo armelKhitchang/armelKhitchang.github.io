@@ -1,0 +1,217 @@
+body{
+     font-family: sans-serif; 
+     background-repeat: no-repeat;
+     overflow: hidden;
+     background-size: cover;
+}
+
+.container{
+    border-radius: 25px;
+    background-color: bisque;
+    width: 400px;
+    margin: auto;
+    margin-top: 60px; 
+
+}
+
+
+.navigation{ 
+    background: #bee3eedf; 
+    height: 60px;   
+}
+
+.navigation ul{
+    list-style-type: none;  
+    margin:5px;
+    padding:20px; 
+    overflow: hidden; 
+}
+
+.navigation li{
+    display: inline; 
+    margin-right: 20px;   
+}
+
+.navigation a{ 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.main{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    padding-top: 50px ;
+}
+
+.header h1{
+    margin-bottom: 100px;
+    color: #333;
+    font-size: 50px;
+}
+
+.main button{
+    padding-left: 0;
+    background-color:rgb(79, 164, 243);
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-bottom: 75px;
+}
+
+.main button:hover{
+    background-color: rgb(57, 57, 189);
+    box-shadow: 2px 2px 5px #987;
+}
+
+.main input:hover{
+    background-color:#987;
+    box-shadow: 2px 2px 5px #987;
+}
+
+
+.main input, button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-bottom: 50px;
+    color: #333;
+    padding-left: 50px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.main i{
+    left: 20px  ;
+    top: 4px;
+    color: #333;
+    position: absolute;
+    font-size: 18px;
+}
+.main span{
+    position: relative;
+}
+
+
+.connect{
+ float:right;
+
+}
+
+.newLogin{  
+    background-color: bisque; 
+    border-radius: 25px;
+    margin-top: 60px; 
+}
+
+.button{
+    padding-left: 0;
+    background-color:rgb(79, 164, 243);
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-bottom: 75px;
+}
+
+table input, label{
+    width: 500px;
+    height: 50px;
+    border: none;
+    margin-bottom: 30px;
+    color: #333;
+    padding-left: 50px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+
+
+.containerNewLogin{
+    border-radius: 25px;
+    background-color: bisque;
+    width: 900px;
+    margin: auto;
+    margin-top: 60px; 
+
+}
+
+.containerVente{  
+    border-radius: 25px;
+    background-color: bisque;
+    width: 1000px;
+    margin: auto;
+    margin-top: 5px; 
+    min-height: 450px;
+
+}
+
+.ventes{
+    margin-left: 50px;
+}
+ 
+.valider{
+    height: 10px;
+    padding: 20px;
+}
+
+.increase {
+    width:15px;
+    height:15px;
+}
+
+.vente td{
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
