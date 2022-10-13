@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Commande Client</title> 
+    <link rel="stylesheet" href="commande.css">
+
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/">
+        <h1><b>Commande Client</b></h1>
+        <p><b></b>Pour un Service de qualite</p>
+        <table >
+          <tr> 
+            <th COLSPAN="2">Dejeuner</th>
+            <th COLSPAN="2">Diner</th>
+            <th COLSPAN="2">Souper</th>
+            <th COLSPAN="2">Deserts</th>    
+          </tr>
+          <tr> 
+            <td><label type="text" value="label" name="label" >OEUFS MINCEUR</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><label type="text" value="label" name="label" >AILES DE POULET</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><label type="text" value="label" name="label" >SAUMON AIGRE-DOUX</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><label type="text" value="label" name="label" >POIRES ET FROMAGE</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+          </tr>
+          <tr> 
+            <td><label type="text" value="label" name="label" >CRÊPE DIVINE</label></td>
+            <td><input type="radio" value="none" name="Service" /></td>
+            <td><label type="text" value="label" name="label" >HOUMOUS FRIT</label></td>
+            <td><input type="radio" value="none" name="Service" /></td>
+            <td><label type="text" value="label" name="label" >CÔTES LEVÉES</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><label type="text" value="label" name="label" >FONDANT AU CHOCOLAT</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+          </tr>
+          <tr> 
+            <td><label type="text" value="label" name="label" >SPÉCIAL COSMOS</label></td>
+            <td><input type="radio" value="none" name="Speed" /></td>
+            <td><label type="text" value="label" name="label" >ROULEAUX DE TOSCANE</label></td>
+            <td><input type="radio" value="none" name="Speed" /></td>
+            <td><label type="text" value="label" name="label" >TARTARE DE BOEUF</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><label type="text" value="label" name="label" >COFFEE CRISP</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+          </tr>
+          <tr> 
+            <td><label type="text" value="label" name="label" >OMELETTE JAMBON SUISSE</label></td>
+            <td><input type="radio" value="none" name="Price" /></td>
+            <td><label type="text" value="label" name="label" > NACHOS MAISON</label></td>
+            <td><input type="radio" value="none" name="Price" /></td>
+            <td><label type="text" value="label" name="label" >TARTARE DE SAUMON</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><label type="text" value="label" name="label" >GÂTEAU COSMOS</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+          </tr>
+          <tr> 
+            <td><label type="text" value="label" name="label" >CÉRÉALES MUESLI</label></td>
+            <td><input type="radio" value="none" name="Experience" /></td>
+            <td><label type="text" value="label" name="label" >CALMARS FRITS</label></td>
+            <td><input type="radio" value="none" name="Experience" /></td>
+            <td><label type="text" value="label" name="label" >POUTINE AU POULET FRIT</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><label type="text" value="label" name="label" >CHOCO-PRALINES</label></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+          </tr>
+        </table>  
+        
+        <div class="item">
+          <p>Votre Adresse</p>
+          <input type="text" name="name" placeholder="Appartement"/>
+          <input type="text" name="name" placeholder="Rue"/>
+          <div class="city-item">
+            <input type="text" name="name" placeholder="Ville" />
+            <input type="text" name="name" placeholder="Region" />
+            <input type="text" name="name" placeholder="Code Postal" />
+            <select>
+              <option value="">Ville</option>
+              <option value="1">Brossard</option>
+              <option value="2">Chateauguay</option>
+              <option value="3"> Laval</option>
+              <option value="4" selected>Montreal</option>
+              <option value="5">Sherbrook</option>
+            </select>
+          </div>
+        </div>
+        <div class="item">
+          <p>Nom</p>
+          <div class="name-item">
+            <input type="text" name="name" placeholder="Prenom" />
+            <input type="text" name="name" placeholder="Nom" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label><b>Mode de paiement</b></label><br/>
+            <div class="mode"><br/>
+              <input type="radio" value="none" id="cash" name="Cash" required/>
+              <label for="cash" class="radio"><b>Cash</b></label>
+              <input type="radio" value="none" id="Cheque" name="cheque" required/>
+              <label for="cheque" class="radio"><b>Cheque</b></label>
+              <input type="radio" value="none" id="Interac" name="Interac" required/>
+              <label for="Interac" class="radio"><b>Interac</b></label>
+            </div>
+          </div>
+          
+          
+           
+        </div>
+        
+        <div class="btn-block">
+          <button type="submit" href="/">Valider </button>  <button type="reset" href="/">ANnuler </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
