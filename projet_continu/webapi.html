@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Api</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <style>
+    body {
+    background-image: url('cake.png');
+    background-repeat: no-repeat, repeat; 
+    background-size: cover; 
+    }
+    a { 
+    border-radius: 5px;
+    color: rgb(13, 12, 12);
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 20px; 
+    }
+
+    nav{
+    margin-top: 40px;
+    }
+</style>
+</head>
+<body>
+    <div>
+        <nav>
+          <a href="Index.html">Accueil</a> 
+          <a href="page_html.html"> HTML</a>
+          <a href="pageCss.html"> Css</a> 
+          <a href="page_Javascript.html">  Javascript</a>
+          <a href="webapi.html">  Web API</a>  
+          </nav>
+        </div>
+
+    <div class="container">
+        <h1> WEB API</h1>
+        <form>
+            <div>
+                <label for="cp">Code Postal (Ex: 76390)</label>
+                <input type="text" maxlength="5" name="cp" id="codepostal">
+            </div>
+        </form>        
+            <div id="villes"></div>
+        
+    </div>
+<script src="api.js"></script> 
+</body>
+</html>

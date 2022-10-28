@@ -1,0 +1,94 @@
+<html>
+<head> 
+    <title>Javascript</title>
+		<meta charset="utf-8"/> 
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+<style>
+    body {
+      background-image: url('cake.png');
+      background-repeat: no-repeat, repeat; 
+      background-size: cover; 
+    }
+    a { 
+      border-radius: 5px;
+      color: rgb(13, 12, 12);
+      font-size: 30px;
+      margin-left: 10px;
+      padding: 20px; 
+      }
+    
+      nav{
+        margin-top: 40px;
+      }
+</style>
+</head>
+<body>
+        <div>
+        <nav>
+          <a href="Index.html">Accueil</a> 
+          <a href="page_html.html"> HTML</a>
+          <a href="pageCss.html"> Css</a> 
+          <a href="page_Javascript.html">  Javascript</a>
+          <a href="webapi.html">  Web API</a>  
+          </nav>
+        </div>
+
+
+
+        <div class="div1"> 
+                            
+            <div class="div2">  
+                    <h1><b> Données métriques</b></h1>
+                    <p> Saisir la taille (en Cm):
+                        <input type="text" id = 'taille1'>
+                        </p>
+                        <br>
+                        <p> Saisir le poids (en KG): 
+                            <input type="text" id = 'poids1'> 
+                        </p>
+                        
+                        
+                        <label  id = 'erreurs_taille1'>  </label> <br>
+                        <label  id = 'erreurs_poids1'>  </label> <br>
+                        <label  id = 'result1'>  </label> 
+                        
+                        <br>
+
+                    <div class="btn-block">
+                        <button id = 'button1' onclick="fonction1()">Calcul </button>
+                    </div>        
+            
+               </div>
+          
+    
+     
+    
+            <div class="div3">    
+                    <h1><b> Données impériales</b></h1>
+                    <p> Saisir la taille (en Cm):
+                        <input type="text" id = 'taille2'>
+                        </p>
+                        <br>
+                        <p> Saisir le poids (en KG): 
+                            <input type="text" id = 'poids2'> 
+                        </p>
+                        
+                        
+                        <label  id = 'erreurs_taille2'>  </label> <br>
+                        <label  id = 'erreurs_poids2'>  </label> <br>
+                        <label  id = 'result2'>  </label> 
+                        <br>
+
+                    <div class="btn-block"> 
+                      <button id = 'button2' onclick="fonction2()">Calcul </button>
+                    </div>       
+            
+            </div>
+    
+            
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+</html>

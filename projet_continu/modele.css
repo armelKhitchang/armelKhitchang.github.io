@@ -1,0 +1,193 @@
+.form{  
+  width: 100%;
+  height: 100%; 
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px #ccc; 
+  background-color:  green;
+  
+}
+
+#formid{
+ background-color:oldlace ;
+}
+
+.class1{
+ margin-bottom: 10px;
+ background-color: yellow;
+}
+
+#appartementid{
+ color: black;
+ 
+}
+
+#buttonid{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.div_mode input {
+  width: auto;
+  } 
+
+.div_mode label {
+  display: inline-flexbox;
+  padding: 0 5px 0 0;
+  } 
+
+
+#td1{
+  width: 30%; background-color: #612;
+}
+
+#td2{
+  width: 30%; background-color: orange;
+}
+
+#td3{
+  text-align: center ; background-color:red; display: inline-flexbox; font-weight: bold; 
+}
+
+#td4{width: 30%; background-color: aqua;
+}
+
+#td5{
+  font-size:200%;
+}
+
+#td6 {
+  background-color: #900;font-family:MV Boli; text-align: center ;font-size:200%
+}
+
+.td7{
+  width: 30%; background-color: #587;
+}
+
+#td8{
+  width: 30%; background-color:#199;
+}
+
+#td9{
+  display: inline-flexbox; background-color: #bca43c; width: 30%; font-weight: bolder; 
+}
+
+select{
+  width: 60%; height: 15px;
+}
+
+a { 
+  border-radius: 5px;
+  color: rgb(13, 12, 12);
+  font-size: 30px;
+  margin-left: 10px;
+  padding: 20px; 
+  }
+
+  nav{
+    margin-top: 40px;
+  }
+
+  .div1{
+    width:100%;  
+    height: 100%; 
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row; 
+  }
+
+  .div2{
+    width: 48%;  
+    height: 65vh;   
+  }
+
+  .div3{
+    width: 48%;      
+    height: 60vh;  
+    margin-top: 23px; 
+  }
+
+  .table{
+    width:100%; height: 100%; border:1px solid black; margin-top: 20px;
+  }
+
+
+
+input {
+  width: calc(100% - 10px);
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  vertical-align: middle;
+  height: 30px;
+  }
+  input:hover, textarea:hover, select:hover {
+  outline: none;
+  border: 1px solid #095484;
+  }
+  .name input {
+  margin-bottom: 10px;
+  }
+  select {
+  padding: 7px 0;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: #e6eef7;
+  }
+  option {
+  background: #fff;
+  }
+  select, table {
+  width: 100%;
+  }
+  .btn-block {
+    margin-top: 20px;
+    text-align: center;
+    }
+
+    button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#095484;  
+
+    }
+
+  
+  button:hover {
+  background-color: #0666a3;
+  }
+
+
+
+  .tdlabel, #label1{
+    background-color: #0666a3;
+  }
+
+
+label{
+  font-size: 15px; text-align: center; font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+#label1{
+display: inline-flexbox; font-size: 20px; background-color: #612; font-weight: bold;
+}
+
+.radio_div{
+  display: flex;
+  font-size: 15px;
+}
+
